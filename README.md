@@ -23,6 +23,10 @@ Projected features/goals:
 3) run 'npm install'
 4) create assets folder 'mkdir assets assets/css assets/images assets/js'
 5) create starter files 'touch assets/css/styles.css assets/js/main.js'
-
+6) Initialize SQL Database
+  1) Download MySQL server here: https://dev.mysql.com/downloads/mysql/
+  2) Download MySQL workbench here: https://www.mysql.com/products/workbench/
+  3) Install MySQL server, make sure to select "Use Legacy Passowrd Encryption" and select an easy to remember password (I just used "password" without quotes)
+  4) Install MySQL workbench and then launch. When you click on the MySQL connection local instance 3306, user should be root and the password is the same as the password you used above
 Project Development by:
 Jonathan Mai & John Tran
