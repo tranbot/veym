@@ -24,11 +24,11 @@ Projected features/goals:
 4) create assets folder 'mkdir assets assets/css assets/images assets/js'
 5) create starter files 'touch assets/css/styles.css assets/js/main.js'
 6) Initialize SQL Database
-  * Download MySQL server here: https://dev.mysql.com/downloads/mysql/
-  * Download MySQL workbench here: https://www.mysql.com/products/workbench/
-  * Install MySQL server, make sure to select "Use Legacy Passowrd Encryption" and select an easy to remember password (I just used "password" without quotes)
-  * Install MySQL workbench and then launch. When you click on the MySQL connection local instance 3306, user should be root and the password is the same as the password you used above
-  * Create a SQL query and copy the schema.sql and create the 'exampledb'
+  - Download MySQL server here: https://dev.mysql.com/downloads/mysql/
+  - Download MySQL workbench here: https://www.mysql.com/products/workbench/
+  - Install MySQL server, make sure to select "Use Legacy Passowrd Encryption" and select an easy to remember password (I just used "password" without quotes)
+  - Install MySQL workbench and then launch. When you click on the MySQL connection local instance 3306, user should be root and the password is the same as the password you used above
+  - Create a SQL query and copy the schema.sql and create the 'exampledb'
 7) After creating the exampledb, we can now start the server. Run 'node server.js'
 
 Project Development by:
