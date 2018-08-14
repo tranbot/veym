@@ -1,4 +1,4 @@
-# veym project
+# Veym Project
 
 Objective: To build a web-app service that will bridge the use of recent technology with legacy forms of registration, attendance, and grade sheets.
 
@@ -26,10 +26,10 @@ Projected features/goals:
 6) Initialize SQL Database
     1) Download MySQL server here: https://dev.mysql.com/downloads/mysql/
     2) Download MySQL workbench here: https://www.mysql.com/products/workbench/
-    3) Install MySQL server, make sure to select "Use Legacy Passowrd Encryption" and select an easy to remember password (I just used "password" without quotes)
+    3) Install MySQL server, make sure to select "Use Legacy Password Encryption" and select an easy to remember password (I just used "password" without quotes)
     4) Install MySQL workbench and then launch. When you click on the MySQL connection local instance 3306, user should be root and the password is the same as the password you used above
     5) Create a SQL query and copy the schema.sql and create the 'exampledb'
 7) After creating the exampledb, we can now start the server. Run 'node server.js'
 
-Project Development by:
+#Project Development by:
 Jonathan Mai & John Tran
