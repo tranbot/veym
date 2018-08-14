@@ -31,5 +31,5 @@ Projected features/goals:
     5) Create a SQL query and copy the schema.sql and create the 'exampledb'
 7) After creating the exampledb, we can now start the server. Run 'node server.js'
 
-#Project Development by:
+# Project Development by:
 Jonathan Mai & John Tran
