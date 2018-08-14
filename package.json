@@ -1,0 +1,20 @@
+{
+  "name": "veym",
+  "version": "1.0.0",
+  "description": "Objective: To build a web-app service that will bridge the use of recent technology with legacy forms of registration, attendance, and grade sheets.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tranbot/veym.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tranbot/veym/issues"
+  },
+  "homepage": "https://github.com/tranbot/veym#readme"
+}
