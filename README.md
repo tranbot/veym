@@ -28,8 +28,8 @@ Projected features/goals:
     2) Download MySQL workbench here: https://www.mysql.com/products/workbench/
     3) Install MySQL server, make sure to select "Use Legacy Password Encryption" and select an easy to remember password (I just used "password" without quotes)
     4) Install MySQL workbench and then launch. When you click on the MySQL connection local instance 3306, user should be root and the password is the same as the password you used above
-    5) Create a SQL query and copy the schema.sql and create the 'exampledb'
-7) After creating the exampledb, we can now start the server. Run 'node server.js'
+    5) Create a SQL query and copy the schema.sql and create the 'tnttdb'
+7) After creating the tnttdb, we can now start the server. Run 'node server.js'
 
 # Project Development by:
 Jonathan Mai & John Tran
