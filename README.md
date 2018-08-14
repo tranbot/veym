@@ -17,6 +17,12 @@ Projected features/goals:
   - Heirarchical breakdown into BTV, BCH, Nganh, Doi Truong (if necessary)
 - More to come...
 
+# Project Setup
+1) run 'npm init -y'
+2) create .gitignore and add node_modules and package-lock.json
+3) run 'npm install'
+4) create assets folder 'mkdir assets assets/css assets/images assets/js'
+5) create starter files 'touch assets/css/styles.css assets/js/main.js'
 
 Project Development by:
 Jonathan Mai & John Tran
