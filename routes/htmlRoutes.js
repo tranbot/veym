@@ -6,13 +6,17 @@ module.exports = function(app) {
   // It passes an object with a message and an object of examples (not functional right now but the message is)
   // So if you look at index.handlebars on row 5 you'll see {{msg}} and here, "Welcome!" is passed.
   app.get("/", function(req, res) {
-    db.Example.findAll({}).then(function(dbExamples) {
+    db.User.findAll({}).then(function(dbExamples) {
       res.render("index", {
         msg: "Welcome!",
-        examples: dbExamples
+        // examples: dbExamples
       });
     });
   });
+
+  app.get("/register", function(req, res) {
+    res.render("register");
+  })
 
   // // Load example page and pass in an example by id
   // app.get("/example/:id", function(req, res) {

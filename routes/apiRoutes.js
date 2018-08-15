@@ -1,6 +1,11 @@
 var db = require("../models");
 
 module.exports = function(app) {
+  app.post("/new/user", function(req, res) {
+    db.User.create(req.body).then(function(user) {
+      res.json(user);
+    })
+  })
   // // Get all examples
   // app.get("/api/examples", function(req, res) {
   //   db.Example.findAll({}).then(function(dbExamples) {
