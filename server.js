@@ -11,6 +11,10 @@ var PORT = process.env.PORT || 3000;
 // Middleware
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+
+// @readthis This points to the "public" folder, so when you handle file paths in handlebars, you just need to do the link to be /js/index.js or /styles/style.css
+// Example: in main.handlebars, we did a <link rel="stylesheet" href="/styles/styles.css" media="screen" title="no title" charset="utf-8">
+// This points to /styles/styles.css rather than having to do "../../public/styles/styles.css"
 app.use(express.static("public"));
 
 // Handlebars
